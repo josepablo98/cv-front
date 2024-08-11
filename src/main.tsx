@@ -5,7 +5,7 @@ import { AppRouter } from './routes/AppRouter'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/cv-front'>
       <AppRouter />
     </BrowserRouter>
   </React.StrictMode>,
